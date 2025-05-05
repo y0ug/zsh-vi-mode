@@ -3573,9 +3573,9 @@ function zvm_init() {
 
   # Surround key bindings
   for s in $surrounds; do
-    for c in {a,i}${s}; do
-      zvm_bindkey visual "$c" zvm_select_surround
-    done
+    # for c in {a,i}${s}; do
+    #   zvm_bindkey visual "$c" zvm_select_surround
+    # done
     for c in {c,d,y}{a,i}${s}; do
       zvm_bindkey vicmd "$c" zvm_change_surround_text_object
     done
