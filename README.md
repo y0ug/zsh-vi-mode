@@ -1,3 +1,12 @@
+# Fork
+
+Fork that include few upstream pr:
+
+* [Issue 257, Inconsistent Escape Behavior in ZVM Visual Mode](https://github.com/jeffreytse/zsh-vi-mode/issues/257)
+* [ZVM_FAST_ESCAPE: zvm_readkeys early exit to workaround #111 #308](https://github.com/jeffreytse/zsh-vi-mode/pull/308)
+* [fix: resolve stupid performance issue in zvm_exist_command #304 ](https://github.com/jeffreytse/zsh-vi-mode/pull/304)
+* [Add .gitignore file #171](https://github.com/jeffreytse/zsh-vi-mode/pull/172)
+
 <div align="center">
   <a href="https://github.com/jeffreytse/zsh-vi-mode">
     <img alt="vi-mode →~ zsh" src="https://user-images.githubusercontent.com/9413601/103399068-46bfcb80-4b7a-11eb-8741-86cff3d85a69.png" width="600">
